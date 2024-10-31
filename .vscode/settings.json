@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "LifeShare\\bin\\Release\\netcoreapp3.1\\publish",
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/b8506761-c13e-4864-ba0a-19d476d41e4a/resourceGroups/rg-dotnet/providers/Microsoft.Web/sites/web-app-dotnet"
+}
