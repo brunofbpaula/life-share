@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'lifeshare-profkarlos'
+          app-name: 'web-app-dotnet'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_838D97F0787144BA844CCF92A0A0248D }}
           package: .
